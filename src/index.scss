@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+// Font variables
+$font-family: "Poppins", sans-serif;
+
+// Color variables
+$bg-color: #D5E1EF;
+$card-bg: #FFFFFF;
+$heading-color: #1F314F;
+$paragraph-color: #7D889E;
+$blue: #2C7DFA;
+$blue-shade: #3685FF;
+
+html {
+  font-family: $font-family;
+  background: $bg-color;
+}
