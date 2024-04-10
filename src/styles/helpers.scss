@@ -1,0 +1,25 @@
+// Font variables
+$font-family: "Poppins", sans-serif;
+
+// Color variables
+$bg-color: #d5e1ef;
+$card-bg: #ffffff;
+$heading-color: #1f314f;
+$paragraph-color: #7d889e;
+$blue: #2c7dfa;
+$blue-shade: #3685ff;
+
+// mixins
+@mixin flex() {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin layout($font-size, $color) {
+  text-align: center;
+  margin: 10px;
+  font-size: $font-size;
+  color: $color;
+}

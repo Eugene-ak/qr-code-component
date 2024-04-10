@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@import "./helpers.scss";
+
+html {
+  box-sizing: border-box;
+  font-family: $font-family;
+  background: $bg-color;
+
+  body {
+    height: 100vh;
+    margin: 0;
+    @include flex();
+
+    div.card {
+      background: $card-bg;
+      width: 288px;
+      padding: 16px;
+      border-radius: 20px;
+      @include flex();
+      gap: 1rem;
+
+      img {
+        width: 288px;
+        border-radius: 20px;
+      }
+
+      .description {
+        @include flex();
+
+        h4 {
+          @include layout(1.2rem, $heading-color);
+        }
+
+        p {
+          @include layout(0.9rem, $paragraph-color);
+        }
+      }
+    }
+  }
+}
